@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
+
 mkdir -p 0-new_project
 
-cd 0-new_project || exit 1
 
-dotnet new console
+dotnet new console -o 0-new_project -n 0-new_project
