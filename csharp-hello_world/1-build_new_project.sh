@@ -3,5 +3,5 @@
 # Create and initialize a new C# console project
 dotnet new console -o 1-new_project
 
-# Build the project and ensure output is shown
-dotnet build 1-new_project --verbosity normal
+# Build the project and redirect stderr to stdout
+dotnet build 1-new_project 2>&1
