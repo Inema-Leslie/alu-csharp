@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-dotnet new console -n 0-new_project -o 0-new_project
+dotnet new console --output 0-new_project --name 0-new_project
