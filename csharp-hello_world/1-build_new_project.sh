@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-# Remove any existing directory
+# Clean start
 rm -rf 1-new_project
 
-# Create a new console project
-dotnet new console -o 1-new_project --force
+# Create project
+dotnet new console -o 1-new_project
 
-# Change to the directory and build (this gives cleaner output)
-cd 1-new_project && dotnet build
+# Build with Debug configuration (default) and show output
+cd 1-new_project
+dotnet build --configuration Debug --verbosity normal
