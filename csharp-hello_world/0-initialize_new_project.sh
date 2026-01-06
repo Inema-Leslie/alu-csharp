@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 
-# Create the 0-new_project directory
+# Ensure we're in the right location
 mkdir -p 0-new_project
 
-# Change to the directory
-cd 0-new_project
-
-# Create the console project (this will create files in the current directory)
-dotnet new console
-
-# Exit the directory
-cd ..
+# Use the full path approach
+dotnet new console --output ./0-new_project --name 0-new_project --force
