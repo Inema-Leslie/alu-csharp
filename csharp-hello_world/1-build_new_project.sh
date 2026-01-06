@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 
-# Clean start
-rm -rf 1-new_project
-
 # Create project
-dotnet new console -o 1-new_project
+dotnet new console -o 1-new_project > /dev/null 2>&1
 
-# Build with Debug configuration (default) and show output
+# Build and capture/output the result
 cd 1-new_project
-dotnet build --configuration Debug --verbosity normal
+dotnet build
