@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\alu-csharp\\csharp-hello_world\\1-new_project\\1-new_project\\1-new_project.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\alu-csharp\\csharp-hello_world\\1-new_project\\1-new_project.csproj",
       "projectName": "1-new_project",
-      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\alu-csharp\\csharp-hello_world\\1-new_project\\1-new_project\\1-new_project.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\alu-csharp\\csharp-hello_world\\1-new_project\\1-new_project.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\alu-csharp\\csharp-hello_world\\1-new_project\\1-new_project\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\alu-csharp\\csharp-hello_world\\1-new_project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
