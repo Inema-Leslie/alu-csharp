@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 mkdir -p 1-new_project
-cd 1-new_project || exit 1
-dotnet new console --name 1-new_project --framework net7.0 > /dev/null
-dotnet restore > /dev/null
+cd 1-new_project
+echo '{
+  "sdk": {
+    "version": "7.0.120",
+    "rollForward": "disable"
+  }
+}' > global.json
+dotnet new console --name 1-new_project
+dotnet restore
 dotnet build
 cd ..
