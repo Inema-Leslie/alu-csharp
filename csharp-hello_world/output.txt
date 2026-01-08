@@ -1,0 +1,2 @@
+MSBuild version 17.4.8+6918b863a for .NET
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
