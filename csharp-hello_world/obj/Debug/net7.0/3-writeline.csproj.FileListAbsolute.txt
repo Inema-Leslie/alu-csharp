@@ -1,0 +1,15 @@
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\bin\Debug\net7.0\3-writeline.exe
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\bin\Debug\net7.0\3-writeline.deps.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\bin\Debug\net7.0\3-writeline.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\bin\Debug\net7.0\3-writeline.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\bin\Debug\net7.0\3-writeline.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\refint\3-writeline.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\3-writeline.genruntimeconfig.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\obj\Debug\net7.0\ref\3-writeline.dll
