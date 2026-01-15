@@ -1,0 +1,15 @@
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\bin\Debug\net7.0\8-print_variables.exe
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\bin\Debug\net7.0\8-print_variables.deps.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\bin\Debug\net7.0\8-print_variables.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\bin\Debug\net7.0\8-print_variables.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\bin\Debug\net7.0\8-print_variables.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\refint\8-print_variables.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\8-print_variables.genruntimeconfig.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-hello_world\8-print_variables\obj\Debug\net7.0\ref\8-print_variables.dll
