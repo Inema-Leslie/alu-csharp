@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-dotnet new console -o 1-new_project
-cd 1-new_project
+mkdir -p 2-new_project && cd 2-new_project || exit 1
+dotnet new console
+dotnet restore
 dotnet build
+dotnet run
