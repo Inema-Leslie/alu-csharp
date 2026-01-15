@@ -7,6 +7,6 @@ class Program
         int number = 98;
         string street = "Battery";
         string city = "Street";
-        Console.WriteLine($"{number} {street} {city}");
+        Console.WriteLine("972 Mission " + city);
     }
 }
