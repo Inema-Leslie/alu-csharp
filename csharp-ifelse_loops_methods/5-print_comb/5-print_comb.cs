@@ -4,16 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
+        string result = "";
+        
         for (int i = 0; i <= 99; i++)
         {
-            Console.Write(i.ToString("D2"));
+            result += $"{i:D2}";
             
             if (i < 99)
             {
-                Console.Write(", ");
+                result += ", ";
             }
         }
         
-        Console.WriteLine();
+        Console.Write(result + "\n");
     }
 }
