@@ -4,8 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Random rnd = new Random();
-        int number = rnd.Next(-10000, 10000);
+        Random rndm = new Random();
+        int number = rndm.Next(-10000, 10000);
+        
+        // YOUR CODE GOES HERE
         int lastDigit = number % 10;
         
         Console.Write($"The last digit of {number} is {lastDigit} and is ");
