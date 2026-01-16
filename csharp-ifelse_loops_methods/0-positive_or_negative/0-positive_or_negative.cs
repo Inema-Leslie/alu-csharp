@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Random rndm = new Random();
-        int number = rndm.Next(-10000, 10000);
+        int number = rndm.Next(-10, 10);
         
         if (number > 0)
         {
