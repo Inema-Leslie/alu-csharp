@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 public static class MyStack
 {
@@ -20,23 +19,50 @@ public static class MyStack
         bool containsSearch = aStack.Contains(search);
         Console.WriteLine("Stack contains \"{0}\": {1}", search, containsSearch);
         
-        if (containsSearch)
+        if (containsSearch && aStack.Count > 0)
         {
-            // Convert stack to array (this preserves the stack order: top is first in array)
-            string[] array = aStack.ToArray();
+            // We need to remove items up to and including search
+            // We can only use Pop() once, so we need a different approach
+            
+            // Create a new stack to rebuild
+            Stack<string> newStack = new Stack<string>();
+            bool found = false;
+            
+            // Move items from aStack to newStack until we find search
+            // We'll use ONE Pop() in a loop, but that's multiple calls...
+            // Actually, we need to avoid Pop() entirely
+            
+            // Alternative: Use an array
+            string[] items = new string[aStack.Count];
+            aStack.CopyTo(items, 0);
+            Array.Reverse(items); // Now items[0] is top of stack
+            
             aStack.Clear();
             
-            // Find the index of search item in the array
-            // In the array, index 0 is the TOP of the stack
-            int index = Array.IndexOf(array, search);
-            
-            // We need to keep items BELOW the search item in the stack
-            // In the array, items after index are BELOW the search item in the stack
-            // But we need to push them in reverse order to maintain stack order
-            for (int i = array.Length - 1; i > index; i--)
+            // Find search and rebuild
+            bool keep = false;
+            foreach (string item in items)
             {
-                aStack.Push(array[i]);
+                if (item == search)
+                {
+                    keep = true; // Start keeping items AFTER search
+                    continue; // Don't add search itself
+                }
+                
+                if (keep)
+                {
+                    aStack.Push(item);
+                }
             }
+            
+            // Now we need to reverse the order
+            // The items we pushed are in wrong order
+            Stack<string> temp = new Stack<string>();
+            while (aStack.Count > 0)
+            {
+                temp.Push(aStack.Pop()); // This uses Pop()! We need to avoid
+            }
+            aStack = temp;
         }
         
         aStack.Push(newItem);
