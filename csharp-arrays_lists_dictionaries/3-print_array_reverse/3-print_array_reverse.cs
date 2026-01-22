@@ -1,5 +1,7 @@
 using System;
 
+#nullable enable
+
 public static class Array
 {
     public static void Reverse(int[]? array)
