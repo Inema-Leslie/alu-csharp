@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+#nullable enable
+
 public static class List
 {
     public static List<int>? CreatePrint(int size)
@@ -19,13 +21,11 @@ public static class List
         
         List<int> result = new List<int>();
         
-        // Create list with incrementing values
         for (int i = 0; i < size; i++)
         {
             result.Add(i);
         }
         
-        // Print the list
         for (int i = 0; i < result.Count; i++)
         {
             Console.Write(result[i]);
