@@ -3,13 +3,13 @@ C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-p
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.AssemblyInfoInputs.cache
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.AssemblyInfo.cs
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.exe
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.deps.json
-C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.runtimeconfig.json
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.dll
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.pdb
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.dll
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\refint\0-print_array.dll
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.pdb
-C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.genruntimeconfig.cache
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\ref\0-print_array.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.exe
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\bin\Debug\net7.0\0-print_array.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-arrays_lists_dictionaries\0-print_array\obj\Debug\net7.0\0-print_array.genruntimeconfig.cache

@@ -1,66 +1,62 @@
 using System;
 
-class Array
+namespace PrintArray
 {
-    public static int?[] CreatePrint(int size)
+    public static class Array
     {
-        // Check if size is negative
-        if (size < 0)
+        public static int[] CreatePrint(int size)
         {
-            Console.WriteLine("Size cannot be negative");
-            return null;
-        }
-        
-        // Check if size is 0
-        if (size == 0)
-        {
-            Console.WriteLine();  // Print blank line as per requirements
-            return new int?[0];
-        }
-        
-        // Create array of nullable ints
-        int?[] newArray = new int?[size];
-        
-        // Fill array with values from 0 to size-1
-        for (int i = 0; i < size; i++)
-        {
-            newArray[i] = i;
-        }
-        
-        // Print array elements
-        for (int i = 0; i < size; i++)
-        {
-            // Print element without trailing space for last element
-            if (i < size - 1)
+            if (size < 0)
             {
-                Console.Write($"{newArray[i]} ");
+                Console.WriteLine("Size cannot be negative");
+                return null;
             }
-            else
+            
+            if (size == 0)
             {
-                Console.Write($"{newArray[i]}");
+                Console.WriteLine();
+                return new int[0];
             }
+            
+            // Create and fill the array
+            int[] result = new int[size];
+            for (int i = 0; i < size; i++)
+            {
+                result[i] = i;
+            }
+            
+            // Print the array
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write(result[i]);
+                if (i < size - 1)
+                {
+                    Console.Write(" ");
+                }
+            }
+            Console.WriteLine();
+            
+            return result;
         }
-        Console.WriteLine();  // Move to next line after printing all elements
-        
-        return newArray;
     }
-}
 
-class Program
-{
-    static void Main(string[] args)
+    class Program
     {
-        int?[] newArray;
+        static void Main(string[] args)
+        {
+            // This Main method tests the Array.CreatePrint method
+            int[] newArray;
 
-        newArray = Array.CreatePrint(10);
-        Console.WriteLine("Array Length: " + newArray.Length);
-        Console.WriteLine("----------------");
-        newArray = Array.CreatePrint(16);
-        Console.WriteLine("Array Length: " + newArray.Length);
-        Console.WriteLine("----------------");
-        newArray = Array.CreatePrint(0);
-        Console.WriteLine("Array Length: " + newArray.Length);
-        Console.WriteLine("----------------");
-        newArray = Array.CreatePrint(-10);
+            newArray = Array.CreatePrint(10);
+            Console.WriteLine("Array Length: " + newArray.Length);
+            Console.WriteLine("----------------");
+            newArray = Array.CreatePrint(16);
+            Console.WriteLine("Array Length: " + newArray.Length);
+            Console.WriteLine("----------------");
+            newArray = Array.CreatePrint(0);
+            Console.WriteLine("Array Length: " + newArray.Length);
+            Console.WriteLine("----------------");
+            newArray = Array.CreatePrint(-10);
+        }
     }
 }
