@@ -25,22 +25,40 @@ public static class MyStack
         // If stack contains search, remove all items up to and including search
         if (containsSearch)
         {
-            // Create a temporary list to hold items
-            List<string> temp = new List<string>();
+            // Create a new stack to hold items we want to keep
+            Stack<string> tempStack = new Stack<string>();
+            bool found = false;
             
-            // Pop items until we find the search item
+            // We can only use Pop() once per iteration, so we need to rebuild the stack
             while (aStack.Count > 0)
             {
-                string item = aStack.Pop();
-                if (item == search)
+                string item = aStack.Pop(); // This is our ONE Pop() call per iteration
+                
+                if (!found && item == search)
                 {
-                    break;
+                    found = true;
+                    // Don't add this item (search item) to tempStack
+                    continue;
                 }
-                temp.Add(item);
+                
+                if (!found)
+                {
+                    // Items above the search (haven't found it yet)
+                    // Don't add them since we're removing everything up to search
+                    continue;
+                }
+                else
+                {
+                    // Items below the search (after we found it)
+                    tempStack.Push(item);
+                }
             }
             
-            // The stack now has items after the search item (if any)
-            // We don't need to put back the items we popped before search
+            // Rebuild the original stack with items after search
+            while (tempStack.Count > 0)
+            {
+                aStack.Push(tempStack.Pop());
+            }
         }
         
         // Add new item to stack
