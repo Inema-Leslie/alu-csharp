@@ -7,63 +7,24 @@ public static class MyStack
     {
         Console.WriteLine("Number of items: {0}", aStack.Count);
         
-        if (aStack.Count > 0)
-            Console.WriteLine("Top item: {0}", aStack.Peek());
-        else
+        if (aStack.Count == 0)
             Console.WriteLine("Stack is empty");
+        else
+            Console.WriteLine("Top item: {0}", aStack.Peek());
         
-        bool contains = aStack.Contains(search);
-        Console.WriteLine("Stack contains \"{0}\": {1}", search, contains);
+        bool containsSearch = aStack.Contains(search);
+        Console.WriteLine("Stack contains \"{0}\": {1}", search, containsSearch);
         
-        if (contains)
+        if (containsSearch)
         {
-            // We need to use Pop() exactly once
-            // Let's pop the top item and work with the rest
+            string[] items = aStack.ToArray();
+            aStack.Clear();
             
-            if (aStack.Count > 0)
+            int index = Array.IndexOf(items, search);
+            
+            for (int i = items.Length - 1; i > index; i--)
             {
-                // Use Pop() ONCE here
-                string poppedItem = aStack.Pop();
-                
-                if (poppedItem == search)
-                {
-                    // If the top item IS the search item, we're done
-                    // The stack now has items below the search
-                }
-                else
-                {
-                    // If not, we need to handle it differently
-                    // Put it back temporarily
-                    Stack<string> temp = new Stack<string>();
-                    temp.Push(poppedItem);
-                    
-                    // Now search through the rest without using Pop()
-                    string[] restItems = aStack.ToArray();
-                    aStack.Clear();
-                    
-                    // Find search and rebuild
-                    bool found = false;
-                    foreach (string item in restItems)
-                    {
-                        if (item == search)
-                        {
-                            found = true;
-                            continue;
-                        }
-                        
-                        if (found)
-                        {
-                            aStack.Push(item);
-                        }
-                        else
-                        {
-                            temp.Push(item);
-                        }
-                    }
-                    
-                    // Items in temp are above search (including our popped item)
-                    // We discard them (don't push back)
-                }
+                aStack.Push(items[i]);
             }
         }
         
