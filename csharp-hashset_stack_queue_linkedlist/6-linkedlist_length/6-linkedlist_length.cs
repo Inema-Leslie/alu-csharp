@@ -1,23 +1,18 @@
-using System;
 using System.Collections.Generic;
 
 public static class LList
 {
-    public static LinkedList<int> CreatePrint(int size)
+    public static int Length(LinkedList<int> myLList)
     {
-        LinkedList<int> list = new LinkedList<int>();
+        int count = 0;
+        if (myLList == null) return count;
         
-        if (size < 0)
+        var current = myLList.First;
+        while (current != null)
         {
-            return list; // Return empty list for negative size
+            count++;
+            current = current.Next;
         }
-        
-        for (int i = 0; i < size; i++)
-        {
-            list.AddLast(i);
-            Console.WriteLine(i);
-        }
-        
-        return list;
+        return count;
     }
 }
