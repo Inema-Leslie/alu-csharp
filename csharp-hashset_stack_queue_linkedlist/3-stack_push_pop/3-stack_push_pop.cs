@@ -17,14 +17,16 @@ public static class MyStack
         
         if (containsSearch)
         {
-            string[] items = aStack.ToArray();
-            aStack.Clear();
+            Stack<string> temp = new Stack<string>();
+            bool found = false;
             
-            int index = Array.IndexOf(items, search);
-            
-            for (int i = items.Length - 1; i > index; i--)
+            while (aStack.Count > 0 && !found)
             {
-                aStack.Push(items[i]);
+                string item = aStack.Pop();
+                if (item == search)
+                {
+                    found = true;
+                }
             }
         }
         
