@@ -21,6 +21,13 @@ public class List
             catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Out of range");
+                // For remaining iterations, keep printing "Out of range" without adding to result
+                // We need to handle the rest of the loop
+                while (i < listLength - 1)
+                {
+                    i++;
+                    Console.WriteLine("Out of range");
+                }
                 break;
             }
         }
