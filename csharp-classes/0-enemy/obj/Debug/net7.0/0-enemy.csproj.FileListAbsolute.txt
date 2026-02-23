@@ -1,0 +1,5 @@
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.csproj.CoreCompileInputs.cache
