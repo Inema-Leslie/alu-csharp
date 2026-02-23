@@ -1,0 +1,12 @@
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\net7.0\MyMath.deps.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\net7.0\MyMath.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\bin\Debug\net7.0\MyMath.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\refint\MyMath.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\MyMath.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-tdd\0-add\MyMath\obj\Debug\net7.0\ref\MyMath.dll
