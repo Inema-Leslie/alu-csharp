@@ -3,3 +3,15 @@ C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.AssemblyInfoInputs.cache
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.AssemblyInfo.cs
 C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\bin\Debug\net7.0\0-enemy.exe
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\bin\Debug\net7.0\0-enemy.deps.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\bin\Debug\net7.0\0-enemy.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\bin\Debug\net7.0\0-enemy.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\bin\Debug\net7.0\0-enemy.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\bin\Debug\net7.0\0-enemy.xml
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\refint\0-enemy.dll
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.xml
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.pdb
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\0-enemy.genruntimeconfig.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-classes\0-enemy\obj\Debug\net7.0\ref\0-enemy.dll
