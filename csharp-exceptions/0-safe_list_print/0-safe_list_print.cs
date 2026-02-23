@@ -17,8 +17,8 @@ public class List
         }
         catch (ArgumentOutOfRangeException)
         {
-            // Exception caught, stop printing but don't do anything else
-            // The count already has the number of successfully printed elements
+            // Exception caught, stop printing
+            // count already has the number of successfully printed elements
         }
         
         return count;
