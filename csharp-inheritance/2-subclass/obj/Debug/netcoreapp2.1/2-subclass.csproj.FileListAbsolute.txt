@@ -1,0 +1,5 @@
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\netcoreapp2.1\2-subclass.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\netcoreapp2.1\2-subclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\netcoreapp2.1\2-subclass.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\netcoreapp2.1\2-subclass.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Desktop\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\netcoreapp2.1\2-subclass.csproj.CoreCompileInputs.cache
